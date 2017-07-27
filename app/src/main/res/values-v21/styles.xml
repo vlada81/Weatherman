@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Settings aktivnosti. -->
+    <style name="SettingsTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/weatherman_blue</item>
+        <item name="android:colorPrimaryDark">@color/weatherman_dark_blue</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Stanje kada je red pritisnut, ali jos nije aktiviran (prst na ekranu) -->
+    <item android:state_pressed="true">
+        <ripple android:color="@color/grey" />
+    </item>
+
+    <!-- Kada je pogled "aktiviran".  U SINGLE_CHOICE_MODE, aktivan red je oznacen
+         u ListView-u -->
+    <item android:state_activated="true"
+        android:drawable="@color/weatherman_light_blue" />
+
+    <!-- Pocetno stanje. -->
+    <item android:drawable="@android:color/transparent" />
+</selector>

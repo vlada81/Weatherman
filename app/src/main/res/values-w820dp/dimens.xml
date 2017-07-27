@@ -1,0 +1,5 @@
+<resources>
+    <!-- Podesavanja za ekrane preko 820dp sirine. Tu spadaju uredjaji od 7" i 10"
+         u polozenoj orijentaciji. -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>
